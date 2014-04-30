@@ -121,7 +121,7 @@ def main():
 
 
 
-	parser = argparse.ArgumentParser(description='Scan server for all "practical" SSL vulnerabilities.', epilog='Example of use: ./mptssl.py -u "https://www.site.com/" -vv')
+	parser = argparse.ArgumentParser(description='Scan server for all "practical" SSL vulnerabilities.', epilog='Example of use: ./ssl.py -u "https://www.site.com/" -vv')
 	parser.add_argument('-u', '--url', metavar='URL', type=str, required=True,
 	                   help='url for testing')
 	parser.add_argument('-p', '--port', default=443,
